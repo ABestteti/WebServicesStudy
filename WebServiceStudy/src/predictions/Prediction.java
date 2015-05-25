@@ -3,7 +3,11 @@ package predictions;
 import java.io.Serializable;
 
 public class Prediction implements Serializable {
-    private String who;   // person
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String who;   // person
     private String what;  // his/her prediction
     
     public Prediction() { }
